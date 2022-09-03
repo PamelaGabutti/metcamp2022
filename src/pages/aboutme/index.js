@@ -8,9 +8,9 @@ function AboutMe() {
     const onClickButton = () => {
         navigate('/');
     }
-    return <section>
+    return <section className='home'>
         <h1>Acerca de Mí</h1>
-        {/* <p>  </p> */}
+        <div className='box'>
         <ul>
             <li>
             Mi nombre es Pamela, tengo 29 años y soy de Río Grande, Tierra del Fuego ❄️
@@ -22,6 +22,7 @@ function AboutMe() {
             Vivo 24/7 frente a la compu y/o el celu, por lo cual estudio desarrollo web y diseño UX/UI para lograr insertarme en el mundo laboral de la tecnología 👩🏻‍💻
             </li>
         </ul>
+        </div>
         <span className='botonVolver' ><Button onClick={onClickButton} text={'Volver a Inicio'}/></span>
     </section>
 

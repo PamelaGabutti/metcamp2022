@@ -1,13 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+}
 body {
-  background-color: #00CDAC;
-  background-image: radial-gradient(white 1.35px, transparent 1.35px), radial-gradient(white 1.35px, #00CDAC 1.35px);
-  background-size: 54px 54px;
-  background-position: 0 0, 27px 27px;
+  background-image: url(/images/background.jpeg);
+  background-size: cover;
+  min-height: 100vh;
+}
+
+h1{
+  font-size: 3rem;
+  color:#004695;
 }
 section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  width: 90%;
+  max-width: 1300px;
+  margin: auto;
+  top: 5%;
+  bottom: 5%;
+  left: 0;
+  right: 0;
+  font-family: 'Beth Ellen', cursive;
+  font-size: 1rem;
+  color: #26090e;
+  border-radius: .5rem;
+  padding: 2rem;
+}
+.home, .aboutme {
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -21,35 +46,15 @@ section {
   bottom: 5%;
   left: 0;
   right: 0;
-  font-family: 'Cabin Sketch', cursive;
-  font-size: 2rem;
-  color: #00CDAC;
-  background-image: radial-gradient(#00CDAC 1.35px, transparent 1.35px), radial-gradient(#00CDAC 1.35px, white 1.35px);
-  background-size: 54px 54px;
-  background-position: 0 0, 27px 27px;
+  font-family: 'Beth Ellen', cursive;
+  font-size: 1rem;
+  color: #080000;
   border-radius: .5rem;
-  box-shadow: 0px 10px 10px rgba(0,0,0, .2);
   padding: 2rem;
 }
 
-ul {
+ul, form {
   font-family: 'Zen Maru Gothic', sans-serif;
-}
-
-button {
-  background-color: white;
-  color: #FA6164;
-  font-family: 'Zen Maru Gothic', sans-serif;
-  font-size: 1rem;
-  border: 1px solid #FA6164;
-  border-radius: .5rem;
-  padding: 1rem;
-  transition: .3s;
-}
-
-button:hover {
-  color: white;
-  background-color: #FA6164;
 }
 
 .botonVolver {

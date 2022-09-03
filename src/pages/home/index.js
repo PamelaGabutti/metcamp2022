@@ -11,7 +11,7 @@ function Home() {
         navigate('/aboutme');
     }
     return (
-        <section>
+        <section className="home">
             <h1>MetCamp Quiz</h1>
             <Button onClick={onClickButton} text='Comenzar a jugar' />
             <Button onClick={onClickAbout} text='Acerca de mí' />
